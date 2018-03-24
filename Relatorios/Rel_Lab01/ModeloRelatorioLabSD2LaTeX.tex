@@ -1,0 +1,56 @@
+% Template for FPL 2012 papers; to be used with:
+%          spconf.sty   - ICASSP/ICIP LaTeX style file
+%          IEEEtran.bst - IEEE bibliography style file
+
+% Created:  Apr-May 2005 - Riku Uusikartano -- riku.uusikartano@tut.fi
+% Modified: March-2012 - Daniel Muñoz Arboleda -- damuz@unb.br
+% --------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{spconf,amsmath,epsfig}
+\usepackage[brazilian]{babel} % Suporte para o Português
+\usepackage[latin1]{inputenc} % Suporte para acentuação sem necessidade dos comandos especiais.
+%\usepackage[]{subfigure}
+\usepackage[portuguese,algoruled,longend]{algorithm2e}
+\usepackage{multirow}
+
+
+
+% Titulo do documento
+% -------------------
+\title{Formato de Relatório de Laboratório de Sistemas Digitais 2}
+
+
+% Nome dos autores
+% ----------------
+\name{
+Fulano da Silva, Sutano Oliveira}
+\address{Programa de Graduação em Engenharia Eletrônica, Faculdade Gama\\
+Universidade de Brasília\\
+Gama, DF, Brasil\\
+email: emailfulano@unb.br, emailsutano@unb.br}
+
+
+\hyphenation{Tam-pe-re ela-bo-ra-cao}
+
+\begin{document}
+
+\maketitle
+
+\input{resumo}
+\input{introducao}
+\input{experimento}
+\input{resultados}
+\input{conclusoes}
+
+
+\small
+% IEEEtran is a LaTeX style file defining the reference formatting.
+% -----------------------------------------------------------------
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,labrefs}
+%\bibliography{IEEEabrv,fpl_refs}
+
+
+\end{document}
