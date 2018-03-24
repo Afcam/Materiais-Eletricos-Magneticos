@@ -1,9 +1,0 @@
-# Fdb version 3
-["pdflatex"] 1521041913 "introducao.tex" "introducao.pdf" "introducao" 1521041913
-  "/usr/share/texmf-dist/web2c/texmf.cnf" 1520157258 32585 d82bbcf7626b7842c87671687479e852 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1520980248 7738161 05659426b0f83f7cc7f1b00b3a179e44 ""
-  "introducao.aux" 1521038408 8 a94a2480d3289e625eea47cd1b285758 ""
-  "introducao.tex" 1521041899 39 861543c1e5653009006c4c99d267eb39 ""
-  (generated)
-  "introducao.pdf"
-  "introducao.log"
