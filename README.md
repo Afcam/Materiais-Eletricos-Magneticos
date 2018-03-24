@@ -1,2 +1,2 @@
-# Materiais-El-tr-Mag
+# Materiais-Eleitricos-Magneticos
 Materiais Elétricos e Magnéticos Repositório
